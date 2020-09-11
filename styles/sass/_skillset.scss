@@ -1,0 +1,65 @@
+.skillset {
+    min-height: 100vh;
+    padding-top: 100px;
+    background-color: $primaryLightColor;
+    color: $primaryDarkColor;
+    background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+    h3 {
+        // max-width: 355px;
+        text-align: right;
+        padding: 0 20px 20px 0px;
+        @include secondaryHeadingsStyle;
+        border-right: 8px solid $firstAccentColor;
+        border-bottom: 8px solid $firstAccentColor;
+    }
+    .skillsContainer {
+        margin-top: 50px;
+        h4 {
+            font-size: 3rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid $firstAccentColor;
+        }
+        .comp, .current {
+            margin-bottom: 50px;
+            .skillList {
+                li {
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    p {
+                        font-size: 1.7rem;
+                        letter-spacing: 1px;
+                        text-align: center;
+                        margin-top: 15px;
+                    }
+                    i {
+                        text-shadow: 1.5px 1.5px $secondAccentColor;
+                        font-size: 5rem;
+                    }
+                }
+            }
+            .current {
+                margin-top: 50px;
+                padding-bottom: 50px;
+                .skillList {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    padding: 0px 20px;
+                }
+            }
+        }
+        .comp {
+            .compCont {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+    }
+}
