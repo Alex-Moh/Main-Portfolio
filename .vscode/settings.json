@@ -14,5 +14,6 @@
     "liveSassCompile.settings.autoprefix": [
         "> 1%",
         "last 2 versions"
-    ]
+    ],
+    "remove-bg.apiKey": "wW2g1MXqzEfsUE6DmQd6h2h4"
 }
